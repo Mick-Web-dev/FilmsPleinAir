@@ -1,0 +1,233 @@
+
+
+/* Déclarations des proriétés et valeurs générales communes aux pages pour la version desktop */
+
+* {
+    font-size: 16px;
+    font-family: "Open-Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  margin: 0 auto;  
+  
+  width: auto;
+  height: auto;
+  max-width: 1200px;
+  min-width: 100%;
+  background-image: url(/images/zhifei-zhou-XO4A1pWBEbE-unsplash.jpg);
+ 
+}
+
+
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(0, 131, 129);
+    margin: auto;  
+    padding: 20px ;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color:  rgba(34, 62, 157, 0.209);
+}
+
+header nav li{
+    padding: 10px;
+}
+
+footer {    
+    align-content: space-between;
+    flex-wrap: wrap;
+    color: rgb(0, 115, 128);
+    margin: 0 auto;  
+    padding: 0 auto;
+    width: 100%;
+    background-color:  rgba(0, 83, 89);
+}
+
+@keyframes info-defil {
+    0% {
+        margin-left:0;
+    }
+    100% {
+        margin-left:-100%;
+    }
+}
+
+.info-defil p{	
+    max-width: 1200px;       
+    margin: 0 auto;
+    padding: 10px 0 0;  
+    text-align: center;
+    color: rgb(255, 247, 0);
+}
+
+
+
+#alafiche {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px auto;  
+    padding: 25px auto;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    background-color:  rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.affiche {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-items: end;
+    margin: 20px 20px;
+    width: 2900px;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.equipe {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Autres elements*/
+
+.description{
+    margin: 20px;
+}
+
+cite{
+    text-align: center;
+   font-size: 12px;
+}
+
+.autres {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: rgb(158, 0, 55);
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(221, 255, 1);
+}
+
+.divencadre {
+    border: solid 2px;
+    margin: 0 auto;
+    padding: 5px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.583);
+}
+
+#date-projection{
+    background-color: rgb(0, 115, 128);
+}
+
+ .places{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px ;
+    margin: 20px 20px;
+    width: 120px;
+    background: linear-gradient(rgba(34, 62, 157), rgb(0, 115, 128));
+    color: yellow;
+}
+
+/* Formulaire */
+
+.form-contact {
+    background-color: rgba(128, 128, 128, 0.809);
+    width: 800px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.form-contact h5{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.form-contact .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    width: 600px;
+}
+
+label {
+    padding: 10px;
+    color: white;
+}
+
+button{
+    margin: 20px auto;
+    width: 150px;
+    padding: 5px;
+}
+
+.choix, input{
+    margin: 10px 20px;
+    color: rgb(16, 33, 58);
+    font-weight: bolder;
+}
+
+
+
+/* mentions légales */
+
+.mention {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px auto;
+    background-color: rgba(107, 107, 107, 0.755);
+    border-radius: 20px;
+}
+
+.mention h5{
+    font-size: 18px;
+    color: white;
+    margin: 50px auto;
+}
+
+.mention p{
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* cookie eu */
+div.cookie_policy_msg{width:100%;background:#111;}
+div.cookie_policy_msg>div{max-width:1200px;margin:0 auto;color:#999;padding:10px}
+div.cookie_policy_msg>div>a:first-child{color:#fff;display:inline-block;margin-left:10px}
+div.cookie_policy_msg>div>a:last-child{display:inline-block;margin-left:20px;height:28px;width:32px;color:#fff}
+
+figcaption {
+    font-weight: bold;
+}
+

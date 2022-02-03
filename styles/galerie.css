@@ -1,0 +1,45 @@
+/* PAGE A VENIR */
+
+#liste-films {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.description-liste {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+.contenu-avenir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.contenu-avenir .avenir img {
+    margin: 20px;
+    width: 200px;
+}
+
+.contenu-avenir .avenir figcaption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.contenu-avenir .avenir button {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
