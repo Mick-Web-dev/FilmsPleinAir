@@ -1,2 +1,2 @@
-# FilmsPleinAir
-Etablir un cahier des charges et réaliser une maquette en html et css
+# les-films-de-plein-air
+ Demande: projet codé uniquement en HTML & CSS

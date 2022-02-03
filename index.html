@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Projection de film d'auteurs en plein air">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/galerie.css">
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="logo-film-plein-air.ico" />
+    <title>Les Films de Plein Air - 2021</title>
+</head>
+<body>
+
+    <!-- Entête & menu -->
+    <header>
+               
+        <div class="entite">
+            <img src="/images/logoFfilmPleiAir150px.svg" alt="logo représentant une camera étoilée">
+            <li><b>Les Films de Plein Air</b><br>
+            <a href="#"><i>Des films d'auteurs à l'air libre</i></a></li>
+        </div>
+            
+        <form action="/pages/listedesfilms.html" method="post">
+            <label for="recherche">Rechercher un film  :</label>
+            <input type="text">
+            <button type="submit">rechercher</button>
+        </form>
+
+        <nav>
+            <li class="recherche">
+                <a href="/pages/s-enregistrer.html">S'enregistrer </a>-
+                <a href="/pages/se-connecter.html"> Se connecter<br</a>
+            </li> 
+            <li class="menu">
+                <a href="/pages/a-propos-de-l-asso.html">A propos</a>
+                <a href="/pages/a-venir.html">A venir</a>
+                <a href="/pages/contact.html">Contact</a>
+                <a href="/pages/mentions-legales.html">Mentions légales</a>
+            </li>
+                
+        </nav>
+
+    </header>
+
+    <!-- infos défilantes -->
+    <div class="info-defil "><p class=" typing-demo"> Pensez à réserver vos places assises pour la scéance ...</p></div>
+   
+    <!-- Film à l'affiche -->
+    <section id="alafiche">
+
+        <img src="/images/Intouchables_reference.jpg" class="affiche" alt="affiche du film intouchable">
+        <cite>Image Source : Allociné.fr</cite>
+
+        <div class="description">
+
+            <h2 class="divencadre">A l'affiche : </h2>
+            <h1>Titre du Film</h1>
+            <h3>Informations : </h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Catégorie : </th>
+                        <th>Réalisateur : </th>
+                        <th>Année : </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><i>Humour</i></td>
+                        <td><i>F. Copola</i></td>
+                        <td><i>2002</i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Résumé : </h3>
+            <p class="resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, veritatis fugit tempora sed quibusdam aliquid enim.
+             Fugiat enim delectus eaque ad deserunt! Quis ratione odit nulla animi quos illo iusto!</p>
+
+             <h3>Acteurs : </h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th><img src="/images/portrait.png" class="icone" width="68px" alt="acteur1"></th>
+                        <th><img src="/images/portrait.png" class="icone" width="68px" alt="acteur2"></th>
+                        <th><img src="/images/portrait.png" class="icone" width="68px" alt="acteur3"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="prenom">
+                        <td>prenom1</td>
+                        <td>prenom2</td>
+                        <td>prenom3</td>
+                    </tr>
+                    <tr class="nom">
+                        <td>nom1</td>
+                        <td>nom2</td>
+                        <td>nom3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+           
+
+            <h3>Prochaines date de projection : </h3>
+           <form action="#" id="date-rojection" class="date-project">
+            <input type="text" value="04/08/2021 - 20h00">
+            <button type="submit">Réservation</button>
+            <button type="submit">Programmation</button>
+           </form>
+
+        </div>
+
+        <div class="places">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Places restantes</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!--Donnée à remplacer par du code php afin d'avoir une mise a jour en temps réel du nombre de place-->
+                        <td><b>150</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section> 
+
+    
+
+    <footer>
+        <section class="autres">
+            <div class="categories">
+                <h5>CATEGORIES</h5>
+                <ul>
+                    <li>Humour</li>
+                </ul>
+                <ul>
+                    <li>Romantique</li>
+                </ul>
+                <ul>
+                    <li>Aventures</li>
+                </ul>
+                <ul>
+                    <li>Horreur</li>
+                </ul>
+            </div>
+
+            <div class="partenaires">
+                <h5>PARTENAIRES</h5>
+                <ul>
+                    <li>Partenaire 1</li>
+                </ul>
+                <ul>
+                    <li>Partenaire 2</li>
+                </ul>
+                <ul>
+                    <li>Partenaire 3</li>
+                </ul>
+                <ul>
+                    <li>Partenaire 4</li>
+                </ul>
+            </div>
+            
+            <div class="produits">
+                <h5>PRODUITS</h5>
+                <ul>
+                    <li>Produit 1</li>
+                </ul>
+                <ul>
+                    <li>Produit 2</li>
+                </ul>
+                <ul>
+                    <li>Produit 3</li>
+                </ul>
+                <ul>
+                    <li>Produit 4</li>
+                </ul>
+            </div>
+
+            <div class="coordonnees">
+                <h5>COORDONNEES</h5>
+                <address>
+                    Association <br>
+                    Les Films de Plein Air <br>
+                    11 rue du parc 75000 Paris <br>
+                    Tel: 01.55.22.33.44
+                </address>
+            </div>
+        </section>
+         <script src="/script/cookies.js"></script>
+    </footer>
+  
+</body>
+</html>
